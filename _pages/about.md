@@ -7,7 +7,7 @@ subtitle: Institute for Mathematical Stochastics, Georg-August-University Götti
 profile:
   align: right
   image: portrait.jpg
-  image_circular: true #false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Goldschmidtstraße 7</p>
     <p>37077 Göttingen, Germany</p>
@@ -25,11 +25,11 @@ This site is still under construction.
 - Describe research interests.
 - Include Email Adress.
 
-### What is still missing
+<!-- ### What is still missing
 - The infamous SH logo. 
 - List of talks
 - Additional details on Papers
-- CV should be added eventually
+- CV should be added eventually -->
   
 All these details will follow.
 
