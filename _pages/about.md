@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Georg-August-University of Göttingen</a>.
+subtitle: 
 
 profile:
   align: right
@@ -19,6 +19,13 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 This site is still under construction. 
+### Important information
+- Who am I?
+- Where am I?
+- What am I doing?
+- Describe research interests.
+- Include Email Adress.
+All these details will follow.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
