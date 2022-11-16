@@ -25,6 +25,12 @@ This site is still under construction.
 - What am I doing?
 - Describe research interests.
 - Include Email Adress.
+### What is still missing
+- The infamous SH logo. 
+- List of talks
+- Additional details on Papers
+- CV should be added eventually
+  
 All these details will follow.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
