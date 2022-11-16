@@ -2,14 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle: Institute for Mathematical Stochastics, Georg-August-University Göttingen
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: portrait.jpg
+  image_circular: true #false # crops the image to make it circular
   address: >
-    <p> Institute for Mathematical Stochastics <p>
     <p>Goldschmidtstraße 7</p>
     <p>37077 Göttingen, Germany</p>
 
@@ -25,6 +24,7 @@ This site is still under construction.
 - What am I doing?
 - Describe research interests.
 - Include Email Adress.
+
 ### What is still missing
 - The infamous SH logo. 
 - List of talks
