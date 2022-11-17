@@ -9,7 +9,7 @@ profile:
   image: portrait.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Goldschmidtstraße 7</p>
+    <p>Goldschmidtstr. 7</p>
     <p>37077 Göttingen, Germany</p>
 
 news: false  # includes a list of news items
@@ -21,7 +21,9 @@ I find it highly fascinating to model statistical problems in terms of mathemati
 
 Currently, I am a third-year Ph.D. student at the <a href="https://www.stochastik.math.uni-goettingen.de/index.php?id=home&url=http%3A%2F%2Fnewmax.click&language=en">Institute for Mathematical Stochastics</a> at Georg-August-University Göttingen where I am supervised by <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk">Axel Munk</a>. My research interests lie at the intersection of mathematical theory and statistical inference. 
 
-Recently, I have been investigating statistical properties of the intriguing subject on **optimal transport**. Selected works are outlined below. A full list of my publications is outlined <a href="https://hundrieser.github.io/publications/">here</a>. If you seek to contact me, you can reach me via E-Mail under "s[dot]hundrieser[at]math[dot]uni-goettingen[dot]de".
+Recently, I have been investigating statistical properties of the intriguing subject on **optimal transport**. Selected works are outlined below. A full list of my publications is outlined <a href="https://hundrieser.github.io/publications/">here</a>. 
+
+If you seek to contact me, you can reach me via email under "s[dot]hundrieser[at]math[dot]uni-goettingen[dot]de".
 
 <!-- ### What is still missing
 - The infamous SH logo. 
