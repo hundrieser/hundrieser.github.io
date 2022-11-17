@@ -10,7 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Goldschmidtstr. 7</p>
-    <p>37077 Göttingen, Germany</p>
+    <p>37077 Göttingen</p>
+    <p>Germany</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
