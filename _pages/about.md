@@ -6,7 +6,7 @@ subtitle: Institute for Mathematical Stochastics, Georg-August-University Götti
 
 profile:
   align: right
-  image: portrait.jpg
+  image: portrait.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Goldschmidtstraße 7</p>
