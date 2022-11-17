@@ -21,7 +21,7 @@ I find it highly fascinating to model statistical problems in terms of mathemati
 
 Currently, I in my third-year of my Ph.D. studies  where I am supervised by <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk">**Axel Munk**</a>. My research interests lie at the intersection of mathematical theory and statistical inference. 
 
-Recently, I have been investigating statistical properties of the intriguing subject on **optimal transport**. Selected works are outlined below. A full list of my publications is outlined <a href="https://hundrieser.github.io/publications/">**here**</a>. 
+Recently, I have been investigating statistical properties of the intriguing subject on **optimal transport**. Selected works are outlined below; a full list of my publications is detailed <a href="https://hundrieser.github.io/publications/">**here**</a>. 
 
 If you seek to contact me, you can reach me via email under "s[dot]hundrieser[at]math[dot]uni-goettingen[dot]de".
 
