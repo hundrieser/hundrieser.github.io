@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 I find it fascinating to use mathematics for the precise description of statistical problems in order to obtain novel insights, but I also enjoy mathematics for its own sake. 
 
-Currently, I in my third-year of my Ph.D. studies  where I am supervised by <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk"><b>Axel Munk</b></a>. My research interests lie at the intersection of mathematical theory and statistical inference. 
+Currently, I am in my third-year of my Ph.D. studies  where I am supervised by <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk"><b>Axel Munk</b></a>. My research interests lie at the intersection of mathematical theory and statistical inference. 
 
 Recently, I have been investigating statistical properties of **empirical optimal transport** and **entropic surrogates**. Selected works are outlined below; a full list of my publications is detailed <a href="https://hundrieser.github.io/publications/"><b>here</b></a>. 
 
