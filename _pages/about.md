@@ -2,29 +2,32 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://www.stochastik.math.uni-goettingen.de/index.php?id=home&url=http%3A%2F%2Fnewmax.click&language=en"><b>Institute for Mathematical Stochastics</b></a>,  Georg-August-University Göttingen <br>
+subtitle: <a href="https://www.stochastik.math.uni-goettingen.de/index.php?id=home&url=http%3A%2F%2Fnewmax.click&language=en"><b>Institute for Mathematical Stochastics</b></a>, University of Göttingen, Germany
 
 profile:
   align: right
-  image: portrait.jpeg
+  image: portrait2.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Goldschmidtstr. 7</p>
-    <p>37077 Göttingen</p>
-    <p>Germany<br></p>
+  address: 
+    # <p>Goldschmidtstr. 7</p>
+    # <p>37077 Göttingen</p>
+    # <p>Germany<br></p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <!-- <br> -->
+
+
 I find it fascinating to mathematically describe statistical problems in order to obtain novel insights, but I also enjoy mathematics for its own sake. 
 
 Currently, I am in my third-year of my Ph.D. studies  where I am supervised by <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk"><b>Axel Munk</b></a>. My research interests lie at the intersection of mathematical theory and statistical inference. 
 
 Recently, I have been investigating statistical properties of **empirical optimal transport** and **entropic surrogates**. Selected works are outlined below; a full list of my publications is detailed <a href="https://hundrieser.github.io/publications/"><b>here</b></a>. 
 
-If you seek to contact me, you can reach me via email under "s[dot]hundrieser[at]math[dot]uni-goettingen[dot]de".
+If you seek to contact me, you can reach me via email under: <br>
+[initial-of-my-first-name][dot][my-surname]@math.uni-goettingen.de
 
 <!-- ### What is still missing
 - The infamous SH logo. 

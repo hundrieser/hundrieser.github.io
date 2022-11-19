@@ -4,58 +4,97 @@
 @string{aps = {American Physical Society,}}
 
 @article{hundrieser2021limit,
+  bibtex_show={true},
   title={Limit Distributions and Sensitivity Analysis for Entropic Optimal Transport on Countable Spaces},
   author={Hundrieser, Shayan and Klatt, Marcel and Munk, Axel},
-  journal={Preprint arXiv:2105.00049,  },
+  journal={Preprint arXiv:2105.00049},
+  abstract={For probability measures supported on countable spaces we derive limit distributions for empirical entropic optimal transport quantities. In particular, we prove that the corresponding plan converges weakly to a centered Gaussian process. Furthermore, its optimal value is shown to be asymptotically normal. The results are valid for a large class of ground cost functions and generalize recently obtained limit laws for empirical entropic optimal transport quantities on finite spaces. Our proofs are based on a sensitivity analysis with respect to a weighted \$$\ell^1\$$-norm relying on the dual formulation of entropic optimal transport as well as necessary and sufficient optimality conditions for the entropic transport plan. This can be used to derive weak convergence of the empirical entropic optimal transport plan and value that results in weighted Borisov-Dudley-Durst conditions on the underlying probability measures. The weights are linked to an exponential penalty term for dual entropic optimal transport and the underlying ground cost function under consideration. Finally, statistical applications, such as bootstrap, are discussed.},
+  url             = {https://arxiv.org/pdf/2105.00049.pdf},
+  html            =  {https://arxiv.org/pdf/2105.00049.pdf},
   year={2021},
   selected={true}
 }
 
 @inproceedings{eltzner2021finite,
+  bibtex_show={true},
   title={Finite Sample Smeariness on Spheres},
   author={Eltzner, Benjamin and Hundrieser, Shayan and Huckemann, Stephan},
   booktitle={International Conference on Geometric Science of Information,  },
   pages={12--19},
   year={2021},
+  html={https://arxiv.org/pdf/2103.00512.pdf},
+  url={https://arxiv.org/pdf/2103.00512.pdf},
+  abstract={Finite Sample Smeariness (FSS) has been recently discovered. It means that the distribution of sample Fréchet means of underlying rather unsuspicious random variables can behave as if it were smeary
+for quite large regimes of finite sample sizes. In effect classical quantilebased statistical testing procedures do not preserve nominal size, they
+reject too often under the null hypothesis. Suitably designed bootstrap
+tests, however, amend for FSS. On the circle it has been known that
+arbitrarily sized FSS is possible, and that all distributions with a nonvanishing density feature FSS. These results are extended to spheres
+of arbitrary dimension. In particular all rotationally symmetric distributions, not necessarily supported on the entire sphere feature FSS of Type
+I. While on the circle there is also FSS of Type II it is conjectured that
+this is not possible on higher-dimensional spheres.},
   organization={Springer}
 }
 
 @article{hundrieser2022unifying,
+  bibtex_show={true},
   title={A Unifying Approach to Distributional Limits for Empirical Optimal Transport},
   author={Hundrieser, Shayan and Klatt, Marcel and Staudt, Thomas and Munk, Axel},
-  journal={Preprint arXiv:2202.12790,  },
+  journal={Preprint arXiv:2202.12790},
   year={2022},
+  abstract={We provide a unifying approach to central limit type theorems for empirical optimal transport (OT). In general, the limit distributions are characterized as suprema of Gaussian processes. We explicitly characterize when the limit distribution is centered normal or degenerates to a Dirac measure. Moreover, in contrast to recent contributions on distributional limit laws for empirical OT on Euclidean spaces which require centering around its expectation, the distributional limits obtained here are centered around the population quantity, which is well-suited for statistical applications.
+  <br>
+
+  At the heart of our theory is Kantorovich duality representing OT as a supremum over a function class F_c for an underlying sufficiently regular cost function c. In this regard, OT is considered as a functional defined on ℓ∞(F_c) the Banach space of bounded functionals from F_c to R and equipped with uniform norm. We prove the OT functional to be Hadamard directional differentiable and conclude distributional convergence via a functional delta method that necessitates weak convergence of an underlying empirical process in ℓ∞(F_c). The latter can be dealt with empirical process theory and requires F_c to be a Donsker class. We give sufficient conditions depending on the dimension of the ground space, the underlying cost function and the probability measures under consideration to guarantee the Donsker property. Overall, our approach reveals a noteworthy trade-off inherent in central limit theorems for empirical OT: Kantorovich duality requires F_c to be sufficiently rich, while the empirical processes only converges weakly if F_c is not too complex.},
+  html={https://arxiv.org/pdf/2202.12790.pdf},
+  url={https://arxiv.org/pdf/2202.12790.pdf},
   selected={true}
 }
 
 @article{staudt2022uniqueness,
+  bibtex_show={true},
   title={On the Uniqueness of Kantorovich Potentials},
   author={Staudt, Thomas and Hundrieser, Shayan and Munk, Axel},
-  journal={Preprint arXiv:2201.08316,  },
+  journal={Preprint arXiv:2201.08316},
+  abstract={Kantorovich potentials denote the dual solutions of the renowned optimal transportation problem. Uniqueness of these solutions is relevant from both a theoretical and an algorithmic point of view, and has recently emerged as a necessary condition for asymptotic results in the context of statistical and entropic optimal transport. In this work, we challenge the common perception that uniqueness in continuous settings is reliant on the connectedness of the support of at least one of the involved measures, and we provide mild sufficient conditions for uniqueness even when both measures have disconnected support. Since our main finding builds upon the uniqueness of Kantorovich potentials on connected components, we revisit the corresponding arguments and provide generalizations of well-known results. Several auxiliary findings regarding the continuity of Kantorovich potentials, for example in geodesic spaces, are established along the way.},
+  html={https://arxiv.org/pdf/2201.08316.pdf},
+  url={https://arxiv.org/pdf/2201.08316.pdf},
   year={2022}
 }
 
 @article{hundrieser2022empirical,
+  bibtex_show={true},
   title={Empirical Optimal Transport between Different Measures Adapts to Lower Complexity},
   author={Hundrieser, Shayan and Staudt, Thomas and Munk, Axel},
-  journal={Preprint arXiv:2202.10434,  },
+  journal={Preprint arXiv:2202.10434},
   year={2022},
+  abstract={The empirical optimal transport (OT) cost between two probability measures from random data is a fundamental quantity in transport based data analysis. In this work, we derive novel guarantees for its convergence rate when the involved measures are different, possibly supported on different spaces. Our central observation is that the statistical performance of the empirical OT cost is determined by the less complex measure, a phenomenon we refer to as lower complexity adaptation of empirical OT. For instance, under Lipschitz ground costs, we find that the empirical OT cost based on n observations converges at least with rate n^(−1/d) to the population quantity if one of the two measures is concentrated on a d-dimensional manifold, while the other can be arbitrary. For semi-concave ground costs, we show that the upper bound for the rate improves to n^(−2/d). Similarly, our theory establishes the general convergence rate n^(−1/2) for semi-discrete OT. All of these results are valid in the two-sample case as well, meaning that the convergence rate is still governed by the simpler of the two measures. On a conceptual level, our findings therefore suggest that the curse of dimensionality only affects the estimation of the OT cost when both measures exhibit a high intrinsic dimension. Our proofs are based on the dual formulation of OT as a maximization over a suitable function class F_c and the observation that the c-transform of F_c under bounded costs has the same uniform metric entropy as F_c itself},
+  html={https://arxiv.org/pdf/2202.10434.pdf},
+  url={https://arxiv.org/pdf/2202.10434.pdf},
   selected={true}
 }
 
 @inproceedings{hundrieser2022statistics,
+  bibtex_show={true},
   title={The Statistics of Circular Optimal Transport},
   author={Hundrieser, Shayan and Klatt, Marcel and Munk, Axel},
-  booktitle={Directional Statistics for Innovative Applications,  },
+  booktitle={Directional Statistics for Innovative Applications},
   pages={57--82},
   year={2022},
+  editor={"SenGupta, Ashis and Arnold, Barry C."},
+  url={https://link.springer.com/chapter/10.1007/978-981-19-1044-9_4},
+  html={https://link.springer.com/chapter/10.1007/978-981-19-1044-9_4},
+  abstract={Empirical optimal transport (OT) plans and distances provide effective tools to compare and statistically match probability measures defined on a given ground space. Fundamental to this are distributional limit laws, and we derive a central limit theorem for the empirical OT distance of circular data. Our limit results require only mild assumptions in general and include prominent examples such as the von Mises or wrapped Cauchy family. Most notably, no assumptions are required when data are sampled from the probability measure to be compared with, which is in strict contrast to the real line. A bootstrap principle follows immediately as our proof relies on Hadamard differentiability of the OT functional. This paves the way for a variety of statistical inference tasks and is exemplified for asymptotic OT-based goodness of fit testing for circular distributions. We discuss numerical implementation, consistency and investigate its statistical power. For testing uniformity, it turns out that this approach performs particularly well for unimodal alternatives and is almost as powerful as Rayleigh’s test, the most powerful invariant test for von Mises alternatives. For regimes with many modes, the circular OT test is less powerful which is explained by the shape of the corresponding transport plan.},
   publisher={Springer}
 }
 
 @article{hundrieser2020finite,
+  bibtex_show={true},
   title={Finite Sample Smeariness of Fréchet Means and Application to Climate},
-  author={Hundrieser, Shayan and Eltzner, Benjamin and Huckemann, Stephan F},
-  journal={Preprint arXiv:2005.02321,  },
+  author={Hundrieser, Shayan and Eltzner, Benjamin and Huckemann, Stephan},
+  journal={Preprint arXiv:2005.02321},
+  html={https://arxiv.org/pdf/2005.02321.pdf},
+  url={https://arxiv.org/pdf/2005.02321.pdf},
+  abstract={Fréchet means on non-Euclidean spaces may exhibit nonstandard asymptotic rates rendering quantile-based asymptotic inference inapplicable. We show here that this affects, among others, all circular distributions whose support exceeds a half circle. We exhaustively describe this phenomenon and introduce a new concept which we call finite samples smeariness (FSS). In the presence of FSS, it turns out that quantile-based tests for equality of Fréchet means systematically feature effective levels higher than their nominal level which perseveres asymptotically in case of Type I FSS. In contrast, suitable bootstrap-based tests correct for FSS and asymptotically attain the correct level. For illustration of the relevance of FSS in real data, we apply our method to directional wind data from two European cities. It turns out that quantile based tests, not correcting for FSS, find a multitude of significant wind changes. This multitude condenses to a few years featuring significant wind changes, when our bootstrap tests are applied, correcting for FSS.},
   year={2020}
 }
 
