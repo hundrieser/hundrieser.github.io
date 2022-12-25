@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-12-27 11:33:00
 inline: true
 ---
 
-A simple inline announcement.
+An updated version of our manuscript "Limit Distributions and Sensitivity Analysis for Empirical Entropic Optimal Transport on Countable Spaces" is available now on arXiv. 
