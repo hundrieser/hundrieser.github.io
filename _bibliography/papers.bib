@@ -3,7 +3,43 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{Hundrieser23_OT_estcost,
+@article{Groppe2023LCA_EOT,
+  title={Lower Complexity Adaptation for Empirical Entropic Optimal Transport},
+  author={Groppe, Michel and Hundrieser, Shayan},
+  abstract={Entropic optimal transport (EOT) presents an effective and computationally viable alternative to unregularized optimal transport (OT), offering diverse applications for large-scale data analysis. In this work, we derive novel statistical bounds for empirical plug-in estimators of the EOT cost and show that their statistical performance in the entropy regularization parameter ϵ and the sample size n only depends on the simpler of the two probability measures. For instance, under sufficiently smooth costs this yields the parametric rate $n^{−1/2}$ with factor $\epsilon^{−d/2}$, where $d$ is the minimum dimension of the two population measures. This confirms that empirical EOT also adheres to the lower complexity adaptation principle, a hallmark feature only recently identified for unregularized OT. As a consequence of our theory, we show that the empirical entropic Gromov-Wasserstein distance and its unregularized version for measures on Euclidean spaces also obey this principle. Additionally, we comment on computational aspects and complement our findings with Monte Carlo simulations. Our techniques employ empirical process theory and rely on a dual formulation of EOT over a single function class. Crucial to our analysis is the observation that the entropic cost-transformation of a function class does not increase its uniform metric entropy by much.},
+  journal={Preprint arXiv:2306.13580},
+  selected={true},
+  bibtex_show={true},
+  year={2023},
+  url={https://arxiv.org/pdf/2306.13580.pdf},
+  html={https://arxiv.org/pdf/2306.13580.pdf}
+}
+
+@article{staudt2023convergence,
+  title={Convergence of Empirical Optimal Transport in Unbounded Settings},
+  author={Staudt, Thomas and Hundrieser, Shayan},
+  abstract={In compact settings, the convergence rate of the empirical optimal transport cost to its population value is well understood for a wide class of spaces and cost functions. In unbounded settings, however, hitherto available results require strong assumptions on the ground costs and the concentration of the involved measures. In this work, we pursue a decomposition-based approach to generalize the convergence rates found in compact spaces to unbounded settings under generic moment assumptions that are sharp up to an arbitrarily small $\epsilon>0$. Hallmark properties of empirical optimal transport on compact spaces, like the recently established adaptation to lower complexity, are shown to carry over to the unbounded case.},
+  journal={Preprint arXiv:2306.11499},
+  selected={true},
+  bibtex_show={true},
+  year={2023},
+  url={https://arxiv.org/pdf/2306.11499.pdf},
+  html={https://arxiv.org/pdf/2306.11499.pdf}
+}
+
+@article{gonzalez2023weak,
+  bibtex_show={true},
+  abstract={We establish weak limits for the empirical entropy regularized optimal transport cost, the expectation of the empirical plan and the conditional expectation. Our results require only uniform boundedness of the cost function and no smoothness properties, thus emphasizing the far-reaching regularizing nature of entropy penalization. To derive these results, we employ a novel technique that sidesteps the intricacies linked to empirical process theory and the control of suprema of function classes determined by the cost. Instead, we perform a careful linearization analysis for entropic optimal transport with respect to an empirical L2-norm, which enables a streamlined analysis. As a consequence, our work gives rise to new implications for a multitude of transport-based applications under general costs, including pointwise distributional limits for the empirical entropic optimal transport map estimator, kernel methods as well as regularized colocalization curves. Overall, our research lays the foundation for an expanded framework of statistical inference with empirical entropic optimal transport.},
+  title={Weak Limits for Empirical Entropic Optimal Transport: Beyond Smooth Costs},
+  author={Gonz{\'a}lez-Sanz, Alberto and Hundrieser, Shayan},
+  journal={Preprint arXiv:2305.09745},
+  year={2023},
+  selected={true},
+  url={https://arxiv.org/pdf/2305.09745.pdf},
+  html={https://arxiv.org/pdf/2305.09745.pdf}
+}
+
+@article{Hundrieser2023OTestcost,
   bibtex_show={true},
   author = {Hundrieser, Shayan and Mordant, Gilles and Weitkamp, Christoph Alexander and Munk, Axel},  
   title = {Empirical optimal transport under estimated costs: Distributional limits and statistical applications},
@@ -11,7 +47,7 @@
   journal={Preprint arXiv:2301.01287},
   abstract={Optimal transport (OT) based data analysis is often faced with the issue that the underlying cost function is (partially) unknown. This paper is concerned with the derivation of distributional limits for the empirical OT value when the cost function and the measures are estimated from data. For statistical inference purposes, but also from the viewpoint of a stability analysis, understanding the fluctuation of such quantities is paramount. Our results find direct application in the problem of goodness-of-fit testing for group families, in machine learning applications where invariant transport costs arise, in the problem of estimating the distance between mixtures of distributions, and for the analysis of empirical sliced OT quantities.
 The established distributional limits assume either weak convergence of the cost process in uniform norm or that the cost is determined by an optimization problem of the OT value over a fixed parameter space. For the first setting we rely on careful lower and upper bounds for the OT value in terms of the measures and the cost in conjunction with a Skorokhod representation. The second setting is based on a functional delta method for the OT value process over the parameter space. The proof techniques might be of independent interest.},
-selected={true},
+selected={false},
 url={https://arxiv.org/pdf/2301.01287.pdf},
 html={https://arxiv.org/pdf/2301.01287.pdf}
 }
@@ -28,14 +64,7 @@ html={https://arxiv.org/pdf/2301.01287.pdf}
   year={2021},
   html={https://arxiv.org/pdf/2103.00512.pdf},
   url={https://arxiv.org/pdf/2103.00512.pdf},
-  abstract={Finite Sample Smeariness (FSS) has been recently discovered. It means that the distribution of sample Fréchet means of underlying rather unsuspicious random variables can behave as if it were smeary
-for quite large regimes of finite sample sizes. In effect classical quantilebased statistical testing procedures do not preserve nominal size, they
-reject too often under the null hypothesis. Suitably designed bootstrap
-tests, however, amend for FSS. On the circle it has been known that
-arbitrarily sized FSS is possible, and that all distributions with a nonvanishing density feature FSS. These results are extended to spheres
-of arbitrary dimension. In particular all rotationally symmetric distributions, not necessarily supported on the entire sphere feature FSS of Type
-I. While on the circle there is also FSS of Type II it is conjectured that
-this is not possible on higher-dimensional spheres.},
+  abstract={Finite Sample Smeariness (FSS) has been recently discovered. It means that the distribution of sample Fréchet means of underlying rather unsuspicious random variables can behave as if it were smeary for quite large regimes of finite sample sizes. In effect classical quantile-based statistical testing procedures do not preserve nominal size, they reject too often under the null hypothesis. Suitably designed bootstrap tests, however, amend for FSS. On the circle it has been known that arbitrarily sized FSS is possible, and that all distributions with a non-vanishing density feature FSS. These results are extended to spheres of arbitrary dimension. In particular all rotationally symmetric distributions, not necessarily supported on the entire sphere feature FSS of Type I. While on the circle there is also FSS of Type II it is conjectured that this is not possible on higher-dimensional spheres.},
   organization={Springer}
 }
 
@@ -69,23 +98,23 @@ this is not possible on higher-dimensional spheres.},
   bibtex_show={true},
   title={Empirical Optimal Transport between Different Measures Adapts to Lower Complexity},
   author={Hundrieser, Shayan and Staudt, Thomas and Munk, Axel},
-  journal={Preprint arXiv:2202.10434},
+  journal={Annales de l'Institut Henri Poincar\'{e}, Probabilit\'{e}s et Statistiques [to appear, preprint arXiv:2202.10434]},
   year={2022},
   abstract={The empirical optimal transport (OT) cost between two probability measures from random data is a fundamental quantity in transport based data analysis. In this work, we derive novel guarantees for its convergence rate when the involved measures are different, possibly supported on different spaces. Our central observation is that the statistical performance of the empirical OT cost is determined by the less complex measure, a phenomenon we refer to as lower complexity adaptation of empirical OT. For instance, under Lipschitz ground costs, we find that the empirical OT cost based on n observations converges at least with rate n^(−1/d) to the population quantity if one of the two measures is concentrated on a d-dimensional manifold, while the other can be arbitrary. For semi-concave ground costs, we show that the upper bound for the rate improves to n^(−2/d). Similarly, our theory establishes the general convergence rate n^(−1/2) for semi-discrete OT. All of these results are valid in the two-sample case as well, meaning that the convergence rate is still governed by the simpler of the two measures. On a conceptual level, our findings therefore suggest that the curse of dimensionality only affects the estimation of the OT cost when both measures exhibit a high intrinsic dimension. Our proofs are based on the dual formulation of OT as a maximization over a suitable function class F_c and the observation that the c-transform of F_c under bounded costs has the same uniform metric entropy as F_c itself},
   html={https://arxiv.org/pdf/2202.10434.pdf},
   url={https://arxiv.org/pdf/2202.10434.pdf},
-  selected={true}
+  selected={false}
 }
 
-@article{hundrieser2021limit,
+@article{hundrieser2023limit,
   bibtex_show={true},
   title={Limit Distributions and Sensitivity Analysis for Empirical Entropic Optimal Transport on Countable Spaces},
   author={Hundrieser, Shayan and Klatt, Marcel and Munk, Axel},
-  journal={Preprint arXiv:2105.00049},
+  journal={The Annals of Applied Probabilites [To appear, preprint arXiv:2105.00049]},
   abstract={For probability measures on countable spaces we derive distributional limits for empirical entropic optimal transport quantities. More precisely, we show that the empirical optimal transport plan weakly converges to a centered Gaussian process and that the empirical entropic optimal transport value is asymptotically normal. The results are valid for a large class of cost functions and generalize distributional limits for empirical entropic optimal transport quantities on finite spaces. Our proofs are based on a sensitivity analysis with respect to norms induced by suitable function classes, which arise from novel quantitative bounds for primal and dual optimizers, that are related to the exponential penalty term in the dual formulation. The distributional limits then follow from the functional delta method together with weak convergence of the empirical process in that respective norm, for which we provide sharp conditions on the underlying measures. As a byproduct of our proof technique, consistency of the bootstrap for statistical applications is shown. },
   url             = {https://arxiv.org/pdf/2105.00049.pdf},
   html            =  {https://arxiv.org/pdf/2105.00049.pdf},
-  year={2021},
+  year={2023},
   selected={true}
 }
 
