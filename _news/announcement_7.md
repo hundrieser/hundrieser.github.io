@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-10-31 
+date: 2025-02-10 
 inline: true
 ---
 
-Our work "A Unifying Approach to Distributional Limits for Empirical Optimal Transport" has been accepted by Bernoulli. 
+Our work "Unbalanced Kantorovich-Rubinstein distance, plan, and barycenter on finite spaces: A statistical perspective" has been accepted by the Journal of Machine Learning Research. 
