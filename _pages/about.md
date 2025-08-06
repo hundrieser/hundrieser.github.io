@@ -2,8 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle2: 
 subtitle: <a href="https://www.utwente.nl/en/eemcs/mor/"><b> Mathematics of Operations Research</b></a> University of Twente, The Netherlands
+subtitle2: 
 
 profile:
   align: right
