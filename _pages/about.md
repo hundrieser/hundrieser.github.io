@@ -21,9 +21,7 @@ I am a postdoctoral researcher in the group of <a href="https://jschmidthieber.p
 
 Having recently completed my Ph.D. studies in the group of <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk"><b>Axel Munk</b></a>, I have built a solid foundation in mathematics and statistics, which has fueled my passion for exploring cutting-edge frontiers of mathematical data science and machine learning. 
 
-My current research focuses on the intricate fields of **statistical optimal transport**, **statistical inverse problems**, and **statistical theory of neural networks**.
-Earlier I have also contributed to **statistics on non-Euclidean spaces**. 
-As part of my theoretical efforts, I have also devised refined methods for super-resolution microscopy, showcasing my ability to drive innovation and offer valuable practical contributions. Selected works are outlined below; a full list of my publications is detailed <a href="https://hundrieser.github.io/publications/"><b>here</b></a>. 
+My research centers on **statistical optimal transport**, **statistical inverse problems**, and the **statistical theory of neural networks**; earlier, I contributed to **statistics on non-Euclidean spaces**. As part of my theoretical efforts, I have also devised refined methods for super-resolution microscopy, showcasing my ability to drive innovation and offer valuable practical contributions. Selected works are outlined below; a full list of my publications is detailed <a href="https://hundrieser.github.io/publications/"><b>here</b></a>. 
 
 If you seek to contact me, you can reach me via email under: <br>
 s[dot]hundrieser[at]utwente.nl
