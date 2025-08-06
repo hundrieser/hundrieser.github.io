@@ -17,7 +17,10 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am a postdoctoral researcher in the group of <a href="https://jschmidthieber.personalweb.utwente.nl/"> <b>Johannes Schmidt-Hieber</b></a>, funded by a <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/"><b>Leopoldina Postdoctoral Scholarship</b></a>. Having recently completed my Ph.D. studies in the group of <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk"><b>Axel Munk</b></a>, I have built a solid foundation in mathematics and statistics, which has fueled my passion for exploring cutting-edge frontiers of mathematical data science and machine learning. 
+I am a postdoctoral researcher in the group of <a href="https://jschmidthieber.personalweb.utwente.nl/"> <b>Johannes Schmidt-Hieber</b></a>, funded by a <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/"><b>Leopoldina Postdoctoral Scholarship</b></a>. 
+
+Having recently completed my Ph.D. studies in the group of <a href="http://www.stochastik.math.uni-goettingen.de/index.php?id=14&username=munk"><b>Axel Munk</b></a>, I have built a solid foundation in mathematics and statistics, which has fueled my passion for exploring cutting-edge frontiers of mathematical data science and machine learning. 
+
 My current research focuses on the intricate fields of **statistical optimal transport**, **statistical inverse problems**, and **statistical theory of neural networks**.
 Earlier I have also contributed to **statistics on non-Euclidean spaces**. 
 As part of my theoretical efforts, I have also devised refined methods for super-resolution microscopy, showcasing my ability to drive innovation and offer valuable practical contributions. Selected works are outlined below; a full list of my publications is detailed <a href="https://hundrieser.github.io/publications/"><b>here</b></a>. 
