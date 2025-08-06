@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle2: <a href="https://www.stochastik.math.uni-goettingen.de/index.php?id=home&url=http%3A%2F%2Fnewmax.click&language=en"><b>Institute for Mathematical Stochastics</b></a>
+subtitle2: 
 subtitle: <a href="https://www.utwente.nl/en/eemcs/mor/"><b> Mathematics of Operations Research</b></a> University of Twente, The Netherlands
 
 profile:
