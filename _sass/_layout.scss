@@ -26,6 +26,29 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+/******************************************************************************
+ * News
+ ******************************************************************************/
+
+.news {
+  .news-table {
+    margin-bottom: 0;
+  }
+
+  .news-date-col {
+    width: 1%;
+    white-space: nowrap;
+  }
+
+  .news-date {
+    white-space: nowrap;
+  }
+
+  .news-entry {
+    vertical-align: top;
+  }
+}
+
 // Profile
 .profile {
   img {

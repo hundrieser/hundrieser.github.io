@@ -94,6 +94,15 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              {%- assign cv_pdf = site.static_files | where: "path", "/pages/CV.pdf" | first -%}
+              {%- if cv_pdf == nil -%}
+                {%- assign cv_pdf = site.static_files | where: "path", "/_pages/CV.pdf" | first -%}
+              {%- endif -%}
+              {%- if cv_pdf -%}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ cv_pdf.path | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
+              </li>
+              {%- endif -%}
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
