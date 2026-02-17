@@ -9,3 +9,6 @@ _site
 Gemfile.lock
 vendor
 
+Dockerfile
+Gemfile
+docker-local.yml
