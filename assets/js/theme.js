@@ -51,7 +51,7 @@ let transTheme = () => {
 
 let initTheme = (theme) => {
   if (theme == null || theme == 'null') {
-    theme = 'dark';
+    theme = 'light';
   }
   
   setTheme(theme);
