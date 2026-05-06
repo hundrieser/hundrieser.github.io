@@ -21,8 +21,6 @@ I am a postdoctoral researcher at Yale University hosted by <a href="http://www.
 
 I study statistical structure in modern learning systems. My work spans **statistical optimal transport**, **statistical inverse problems**, and the **statistical theory of neural networks**, with earlier contributions to **statistics on non-Euclidean spaces**. 
 
-I care about guarantees — rates, identifiability, and uncertainty — without losing sight of computation. Along the way, I’ve developed methods for *super-resolution microscopy* and *wind data analysis*, turning theory into measurable gains.
-
  Selected works are outlined below; a full list of my publications is detailed <a href="https://hundrieser.github.io/publications/"><b>here</b></a>. 
 
 If you seek to contact me, you can reach me via email under: <br>
